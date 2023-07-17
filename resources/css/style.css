@@ -3,16 +3,44 @@ html {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-}
-
-header {
     text-align: center;
 }
 
-header .title {
+/*** Header ***/
+header h1 {
+    font-weight: normal;
     font-size: 3.125rem;
 }
 
 .download a {
     color: aquamarine;
+}
+
+/*** Banner ***/
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+/*** Content ***/
+.content h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+.content .feature {
+    color: gray;
+    font-size: 1.3125rem;
+}
+
+.platform {
+    margin-top: 1.5rem;
+}
+
+/*** Footer ***/
+footer {
+    text-align: right;
+    color: gray;
+    font-size: 1.3125rem;
+    margin: 1.5rem;
 }
